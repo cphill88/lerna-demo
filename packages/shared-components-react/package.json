@@ -1,6 +1,6 @@
 {
   "name": "shared-components-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "files": [
     "dist"
@@ -12,7 +12,6 @@
     "prebuild": "tsc --declaration --outDir ./dist --emitDeclarationOnly",
     "build": "parcel build ./src/index.ts"
   },
-  "dependencies": {},
   "peerDependencies": {
     "react": ">= 16.8.0 < 17",
     "react-dom": ">= 16.8.0 < 17"
